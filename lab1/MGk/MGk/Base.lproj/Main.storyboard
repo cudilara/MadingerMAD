@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MGk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hfight" translatesAutoresizingMaskIntoConstraints="NO" id="Syc-ZJ-9Ul">
+                                <rect key="frame" x="41" y="99" width="331" height="510"/>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qc3-LK-WcG">
+                                <rect key="frame" x="296" y="662" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qc3-LK-WcG" secondAttribute="height" multiplier="38:15" id="vf4-0G-wIw"/>
+                                </constraints>
+                                <state key="normal" title="Karina"/>
+                                <connections>
+                                    <action selector="hbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lCv-44-vBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaB-Lz-ZfI">
+                                <rect key="frame" x="41" y="662" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IaB-Lz-ZfI" secondAttribute="height" multiplier="38:15" id="mkG-ga-iBb"/>
+                                </constraints>
+                                <state key="normal" title="Hermione"/>
+                                <connections>
+                                    <action selector="hbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5wQ-B5-kyk"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Power Girl!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tFi-ha-qAJ">
+                                <rect key="frame" x="41" y="37" width="331" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="tFi-ha-qAJ" secondAttribute="trailing" constant="22" id="7XW-rG-3Pl"/>
+                            <constraint firstItem="IaB-Lz-ZfI" firstAttribute="top" secondItem="Syc-ZJ-9Ul" secondAttribute="bottom" constant="53" id="HKA-Ir-uWf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qc3-LK-WcG" secondAttribute="bottom" constant="44" id="KOV-qF-vve"/>
+                            <constraint firstItem="tFi-ha-qAJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="MEU-Zi-o7Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Syc-ZJ-9Ul" secondAttribute="bottom" constant="127" id="Mh9-AS-OeK"/>
+                            <constraint firstItem="Syc-ZJ-9Ul" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="RBe-n8-PNt"/>
+                            <constraint firstItem="qc3-LK-WcG" firstAttribute="height" secondItem="IaB-Lz-ZfI" secondAttribute="height" id="TKq-hq-YcD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qc3-LK-WcG" secondAttribute="trailing" constant="22" id="VuM-yG-rW6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IaB-Lz-ZfI" secondAttribute="bottom" constant="44" id="cwi-2R-s9L"/>
+                            <constraint firstItem="tFi-ha-qAJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="fl3-Li-Sfg"/>
+                            <constraint firstItem="Syc-ZJ-9Ul" firstAttribute="top" secondItem="tFi-ha-qAJ" secondAttribute="bottom" constant="8" id="gP0-0X-uUm"/>
+                            <constraint firstItem="qc3-LK-WcG" firstAttribute="top" secondItem="Syc-ZJ-9Ul" secondAttribute="bottom" constant="53" id="mb1-Mu-dcr"/>
+                            <constraint firstItem="Syc-ZJ-9Ul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="mjL-Pv-LkA"/>
+                            <constraint firstItem="IaB-Lz-ZfI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="nJ7-6u-a0E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Syc-ZJ-9Ul" secondAttribute="trailing" constant="22" id="oBv-td-ZHh"/>
+                            <constraint firstItem="qc3-LK-WcG" firstAttribute="width" secondItem="IaB-Lz-ZfI" secondAttribute="width" id="z9w-xk-Unr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mypicture" destination="Syc-ZJ-9Ul" id="fhH-B6-Gmz"/>
+                        <outlet property="mytext" destination="tFi-ha-qAJ" id="ukx-eH-5Dh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hfight" width="170" height="170"/>
+    </resources>
+</document>
