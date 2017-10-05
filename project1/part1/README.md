@@ -2,7 +2,7 @@
 - Project 1 Lord of the Rings IOS app
 
 <br> Description of your app including your app's inspiration and goal.
-<br>	This app is an exploration of Hobbit and Lord of the Rings characters. It is inspired by my daughter’s request to make her an app about the book she is currently reading and enjoying. Her requirements are the following: the app should display pictures of characters accompanied by explanatory text. It also should have some music, including her favorite Tom Bombadil’s song.
+<br>	This app is an exploration of Hobbit and Lord of the Rings characters. It is inspired/Users/dilaramadinger/Documents/appdev/MadingerMAD/project1/part1/README.md by my daughter’s request to make her an app about the book she is currently reading and enjoying. Her requirements are the following: the app should display pictures of characters accompanied by explanatory text. It also should have some music, including her favorite Tom Bombadil’s song.
 
 <br> Define your app's intended audience. Who will be using your app? What problem is your app solving for them?
 <br>	The intended audience for this app is Karina – my 8-year old daughter. She loves the fact that the apps I make for the class, are just for her. She would love to have an app with the characters from the book, especially the ones that are not shown in the film. 
@@ -20,7 +20,7 @@ Here are the resources that I will need:
 - music – will embed from Youtube or search for audio online
 
 <br> Include a digital version of your paper prototype (below)
-![alt text](../screenshots/IMG_0001.JPG)
+![alt text](../../screenshots/IMG_0001.JPG)
 
 
 
