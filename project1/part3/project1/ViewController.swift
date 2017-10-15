@@ -10,6 +10,8 @@
 //
 // Due to copyright issues, the youtube videos for this app will work on simulator,
 // but not on the physical device. The videos will not have sound.
+//
+// Adding this comment to troubleshoot git.
 
 import UIKit
 
