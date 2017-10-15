@@ -8,14 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate{
 
+    @IBOutlet weak var myScrollView: UIScrollView!
     @IBOutlet weak var myWebView: UIWebView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        getVideo(videoCode: "watch?v=RRVIVJjuaHE")
-    }
+    @IBOutlet weak var myText: UITextView!
+    
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        textField.resignFirstResponder()
+//        return true
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,6 +28,13 @@ class ViewController: UIViewController {
         let url = URL(string: "https://www.youtube.com/\(videoCode)")
         myWebView.loadRequest(URLRequest(url: url!))
     }
-
+    
+     override func viewDidLoad() {
+        myText.delegate=self
+        getVideo(videoCode: "watch?v=RRVIVJjuaHE")
+        super.viewDidLoad()
+    }
+    @IBAction func onTapGestureRecognized(_ sender: Any) {
+        myText.resignFirstResponder()
+    }
 }
-

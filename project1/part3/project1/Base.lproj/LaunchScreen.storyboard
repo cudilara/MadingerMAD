@@ -20,12 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="Mqu-uQ-E0f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Mqu-uQ-E0f" secondAttribute="bottom" id="6tf-tg-Qqr"/>
+                            <constraint firstAttribute="trailing" secondItem="Mqu-uQ-E0f" secondAttribute="trailing" id="R53-bm-FfJ"/>
+                            <constraint firstItem="Mqu-uQ-E0f" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="SUi-E1-xni"/>
+                            <constraint firstItem="Mqu-uQ-E0f" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hov-S7-zjN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="419"/>
+            <point key="canvasLocation" x="184.80000000000001" y="418.74062968515744"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Splash" width="16" height="16"/>
+    </resources>
 </document>
