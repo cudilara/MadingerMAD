@@ -11,7 +11,17 @@
 // Due to copyright issues, the youtube videos for this app will work on simulator,
 // but not on the physical device. The videos will not have sound.
 //
-// Adding this comment to troubleshoot git.
+// Images are taken from:
+// Wikipedia pages for character and actors
+// http://lotr.wikia.com/wiki
+// http://www.theonering.net/torwp
+// http://www.minastirith.com/cgi-bin/ultimatebb.cgi?ubb=print_topic;f=1;t=001189
+// http://jadensadventures.wikia.com/wiki/Legolas
+// http://www.independent.ie/entertainment/movies/fear-of-drowning-richard-armitage-is-in-deep-water-29833643.html
+// https://www.thecut.com/2017/01/viggo-mortensen-smells-like-wisdom-and-green-tea.html
+// https://www.vogue.com/article/cate-blanchett-truth-carol-interview
+// http://abcnews.go.com/Entertainment/actor-sean-astin-completes-1406-mile-ironman-triathlon/story?id=34444624
+// https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/emilysiegel/2016/02/08/elijah-wood-horror-film/&refURL=https://www.google.com/&referrer=https://www.google.com/
 
 import UIKit
 
