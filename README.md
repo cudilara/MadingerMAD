@@ -7,3 +7,5 @@ App Dev class assignments.
 <br> Problems: ran out of time to adjust the screen for large iPads.
 - Lab3
 <br> Create an app that includes multiple textfields, does a calcluation, and shows an alert or action sheet for some condition. The keyboard should be dismissed when the user taps the Done/Return key or touches the background view(hint: chapter 4 of the book) from all textfields. Your app should work for all iPhone size classes and orientation. Don't forget your app icons and launch screen.
+- Lab4
+<br> Create an app with multiple view controllers that share multiple pieces of data. You should use a model class for your data. Your data should be persistent between app launches. Your app should work for all iPhone size classes and orientation. Don't forget your app icons and launch screen.
